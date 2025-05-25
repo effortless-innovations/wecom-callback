@@ -2,7 +2,7 @@ FROM oven/bun:1.2.14-slim AS base
 WORKDIR /app
 
 # copy the source code
-COPY index.ts ./
+COPY index.ts utils.ts ./
 
 # run the app
 USER bun
