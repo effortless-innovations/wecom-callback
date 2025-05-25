@@ -1,4 +1,4 @@
-FROM oven/bun:alpine AS base
+FROM oven/bun:alpine
 WORKDIR /app
 
 # copy the source code
