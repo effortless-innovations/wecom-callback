@@ -1,0 +1,10 @@
+{
+  "name": "wecom-callback",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
