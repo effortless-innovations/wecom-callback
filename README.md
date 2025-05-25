@@ -22,7 +22,7 @@ docker run -d -p 3009:3000 --restart=unless-stopped --env-file .env --name wecom
 server {
     listen       80;
     listen  [::]:80;
-    server_name  wecom.your-demain.com;
+    server_name  wecom.your-domain.com;
     location / {
       # 172.17.0.1 is docker's IP
       proxy_pass http://172.17.0.1:3009;
