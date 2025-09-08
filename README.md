@@ -7,7 +7,7 @@
 ```shell
 cp .env.example .env
 ```
-填写企业微信里的TOKEN、ENCODING_AES_KEY 和 CORPID
+填写企业微信里的TOKEN、ENCODING_AES_KEY、CORPID 、CORP_SECRET、AGENT_ID 等
 
 ## 二、构建镜像
 ```shell
